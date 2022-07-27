@@ -7,11 +7,28 @@ BME280 mySensor;
 
 
 void setup() {
-  
+  //init devices
+  //specify addresses
+  //initalize time with 1 secound period
+  //initalize heater boolean
+  Timer1.attatch(det_heat)
 
 }
 
-void loop() {
+void det_heat(int deltime){
   
+}
 
+void start_pressure_sensor(){
+                            
+}
+
+
+void loop() {
+  start_pressure_sensor()
+  if(timeTriggered){
+    det_heat(int deltime)
+  }
+  
+   
 }
